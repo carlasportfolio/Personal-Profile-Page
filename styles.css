@@ -21,6 +21,37 @@ a:hover {
 }
 
 /* Section Styles */
+.main-nav {
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  text-align: center;
+  background-color: #F8D141;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white;
+  text-decoration:overline;
+}
 header h1{
   font-size: 23px;
 }
@@ -34,7 +65,7 @@ header {
   background-size: cover;
   overflow: hidden;
 
-  padding:60px 0px 180px 0px;
+  padding:200px 0px 180px 0px;
 }
 header {
   line-height: 1.5;
@@ -147,6 +178,41 @@ a.social:hover {
   clear: both;
 }
 
+/*About.html styles*/
+.about-header {
+  background: url('images/about-header.jpg') no-repeat top center ;
+  width: 100%;
+  background-size: cover;
+  padding-top: 279px;
+}
+.about-summary {
+  color: #f7f7f7;/*Pea green #826e22*/
+}
+.about-nav {
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  text-align: center;
+  background-color: #F8D141;
+}
+.about-nav a:hover {
+  text-decoration:overline;
+}
+.about-main {
+margin: 30px auto;
+padding: 20px 40px 40px;
+max-width: 700px;
+text-align: left;
+background: #fff;
+border-bottom: 4px solid #ccc;
+border-radius: 6px;
+transition: all .5s;
+}
+
+.header-png {
+  max-width:100%;
+  height:auto;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
